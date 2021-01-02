@@ -1,0 +1,15 @@
+body{
+    padding-top: 70px;
+}
+
+.headercolor{
+    color: #E42116;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+.tester_controls{
+    line-height: 35px;
+}

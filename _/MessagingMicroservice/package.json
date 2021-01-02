@@ -1,0 +1,27 @@
+{
+  "name": "reportingmicroservice",
+  "version": "1.0.0",
+  "description": "a reporting microservice",
+  "main": "app.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.210.0",
+    "body-parser": "^1.18.3",
+    "config": "^1.30.0",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservice",
+    "reporting"
+  ],
+  "author": "Shane Larson",
+  "license": "GPL-3.0"
+}

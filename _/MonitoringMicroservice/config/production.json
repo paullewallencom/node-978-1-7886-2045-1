@@ -1,0 +1,40 @@
+{
+	"microservice": {
+		"config": {
+			"host": "162.243.144.211",
+			"port": 8086,
+			"alerting": {
+				"address": "127.0.0.1",
+				"port": "8085",
+				"path": "/send"
+			},
+			"services": [
+				{ 
+					"name": "Reporting Microservice",
+					"address": "162.243.144.211",
+					"port": 8081
+				},
+				{ 
+					"name": "Inventory Microservice",
+					"address": "162.243.144.211",
+					"port": 8082
+				},
+				{ 
+					"name": "Shipping Microservice",
+					"address": "162.243.144.211",
+					"port": 8083
+				},
+				{ 
+					"name": "Users Microservice",
+					"address": "162.243.144.211",
+					"port": 8084
+				},
+				{ 
+					"name": "Messaging Microservice",
+					"address": "162.243.144.211",
+					"port": 8085
+				}							
+			]
+		}
+	}
+}
